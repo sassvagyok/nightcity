@@ -85,8 +85,8 @@ h1, h2 {
 
 h1 {
     color: #FCEE09 !important;
-    font-size: 3.2rem !important;
-    margin-top: 20px !important;
+    font-size: 3rem !important;
+    margin-top: 30px !important;
     margin-bottom: 0 !important;
 }
 
@@ -261,11 +261,12 @@ th {
 td {
     background-color: transparent !important;
     color: #FAFAFA !important;
-    text-align: left;
+    text-align: right;
+    padding-right: 15px !important;
 }
 
 meter {
-    width: 80%;
+    width: 70%;
     background: transparent;
     border: 1px solid #00F0FF;
 }
