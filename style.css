@@ -107,6 +107,13 @@ h2.kiscim {
     font-size: 1.6rem !important;
 }
 
+h3 {
+    font-size: 2rem !important;
+    text-align: center;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+}
+
 p.alcim {
     font-size: 1.8rem !important;
     text-align: center;

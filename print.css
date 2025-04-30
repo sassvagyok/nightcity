@@ -35,6 +35,10 @@ h2 {
     font-size: 1.8rem !important;
 }
 
+h3 {
+    font-size: 1.4rem !important;
+}
+
 a::after {
     content: " ("attr(href) ")";
 }

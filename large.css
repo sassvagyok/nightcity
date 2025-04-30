@@ -24,6 +24,10 @@ body.large-text p.alcim {
     font-size: 2.8rem !important;
 }
 
+body.large-text h3 {
+    font-size: 2.4rem !important;
+}
+
 body.large-text div.osszefoglalo ul {
     font-size: 2rem !important;
     padding-top: 90px;

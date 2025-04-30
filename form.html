@@ -53,16 +53,16 @@
 					</nav>
 				</div>
 			</div>
-		</div>
-    </header>
-	<main>
-		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">
 					<h1>ÉLJEN ÖN IS <span lang="en">NIGHT CITY</span>-BEN</h1>
 					<p class="alcim">Lépjen be az új életébe</p>
 				</div>
 			</div>
+		</div>
+    </header>
+	<main>
+		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-10 col-sm-8 col-lg-4 m-3 osszefoglalo">
 					<h2 class="kiscim">Várólista</h2>
@@ -80,9 +80,9 @@
 						</fieldset>
 		
 						<fieldset>
-							<label for="kerulet"><strong>Preferált kerület*</strong></label><br>
-							<select id="kerulet" required>
-								<option value="">Válasszon kerületet!</option>
+							<label for="kerulet"><strong>Preferált kerület</strong></label><br>
+							<select id="kerulet">
+								<option value="nincs">Válasszon kerületet!</option>
 								<option value="center">Center</option>
 								<option value="westbrook">Westbrook</option>
 								<option value="heywood">Heywood</option>
@@ -102,12 +102,12 @@
 						</fieldset>
 		
 						<fieldset>
-							<label><strong>Válasszon egy ingatlantípust!*</strong></label><br>
-							<input type="radio" name="haz" id="haz" value="haz" required>
+							<label><strong>Válasszon egy ingatlantípust!</strong></label><br>
+							<input type="radio" name="ingatlan" id="haz" value="haz">
 							<label for="haz">Családi ház</label><br>
-							<input type="radio" name="lakas" id="lakas" value="lakas">
+							<input type="radio" name="ingatlan" id="lakas" value="lakas">
 							<label for="lakas">Lakás</label><br>
-							<input type="radio" name="mega" id="mega" value="mega" class="form_terkoz">
+							<input type="radio" name="ingatlan" id="mega" value="mega" class="form_terkoz">
 							<label for="mega">Megaépület</label><br>
 						</fieldset>
 		
