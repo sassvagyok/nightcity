@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    var toggles = document.querySelectorAll("#textsize-toggle");
+    var toggles = document.querySelectorAll(".textsize-toggle");
 
     toggles.forEach(function(toggle) {
         toggle.addEventListener("click", function(e) {

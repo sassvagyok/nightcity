@@ -240,7 +240,8 @@ hr {
     height: 2px;
     background-color: #FCEE09 !important;
     box-shadow: 0 0 10px #FCEE09;
-    opacity: 1 !important; 
+    opacity: 1 !important;
+    border: none !important;
 }
 
 hr:first-child {
